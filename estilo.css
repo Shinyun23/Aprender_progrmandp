@@ -1,0 +1,20 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px
+
+}
+.caja{
+    background-color: red;
+    color: black;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px black solid;
+    align-items: center; 
+}
+.caja img {
+    width: 100%;
+    height:auto;
+}
